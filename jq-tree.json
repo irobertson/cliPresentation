@@ -1,0 +1,229 @@
+{
+  "sha": "275315a17c14ee26e3705b9d9867b8772893a291",
+  "url": "https://api.github.com/repos/stedolan/jq/git/trees/275315a17c14ee26e3705b9d9867b8772893a291",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "596615322fb3e97de6b2ce208e3557e4b416a972",
+      "size": 54,
+      "url": "https://api.github.com/repos/stedolan/jq/git/blobs/596615322fb3e97de6b2ce208e3557e4b416a972"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3138229e62c3f0d0cb1c9730f5b7009d6672d2bc",
+      "url": "https://api.github.com/repos/stedolan/jq/git/trees/3138229e62c3f0d0cb1c9730f5b7009d6672d2bc"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acdf76c27bd84f87fc2d0383121c5b6d46663aed",
+      "size": 499,
+      "url": "https://api.github.com/repos/stedolan/jq/git/blobs/acdf76c27bd84f87fc2d0383121c5b6d46663aed"
+    },
+    {
+      "path": ".gitmodules",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fff3b881cb4875b084efac51074d649d5c75e09",
+      "size": 103,
+      "url": "https://api.github.com/repos/stedolan/jq/git/blobs/3fff3b881cb4875b084efac51074d649d5c75e09"
+    },
+    {
+      "path": ".travis.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1f7f262e029b21c938f4095b6c65f30d4c6d12b",
+      "size": 7235,
+      "url": "https://api.github.com/repos/stedolan/jq/git/blobs/a1f7f262e029b21c938f4095b6c65f30d4c6d12b"
+    },
+    {
+      "path": "AUTHORS",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "198238e4a014021899a0b574337aa43f5341b52e",
+      "size": 4180,
+      "url": "https://api.github.com/repos/stedolan/jq/git/blobs/198238e4a014021899a0b574337aa43f5341b52e"
+    },
+    {
+      "path": "COPYING",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e1dd1fa6ccf70f03045bfac3ee2dd710778e6a4",
+      "size": 4648,
+      "url": "https://api.github.com/repos/stedolan/jq/git/blobs/3e1dd1fa6ccf70f03045bfac3ee2dd710778e6a4"
+    },
+    {
+      "path": "ChangeLog",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "809398c27164be669479085dc49fefc33d3e55f1",
+      "size": 33283,
+      "url": "https://api.github.com/repos/stedolan/jq/git/blobs/809398c27164be669479085dc49fefc33d3e55f1"
+    },
+    {
+      "path": "Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f69f1f4df88ff08a79c1954c6e2ca8f731c79fed",
+      "size": 1378,
+      "url": "https://api.github.com/repos/stedolan/jq/git/blobs/f69f1f4df88ff08a79c1954c6e2ca8f731c79fed"
+    },
+    {
+      "path": "KEYS",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b5d6fb2222a1736d42776ec8dd85c1ea14aef27",
+      "size": 421,
+      "url": "https://api.github.com/repos/stedolan/jq/git/blobs/2b5d6fb2222a1736d42776ec8dd85c1ea14aef27"
+    },
+    {
+      "path": "Makefile.am",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5c1db594a818d7eaae1ddd64bbd44e3a3beb130",
+      "size": 8542,
+      "url": "https://api.github.com/repos/stedolan/jq/git/blobs/f5c1db594a818d7eaae1ddd64bbd44e3a3beb130"
+    },
+    {
+      "path": "NEWS",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c969facfb561fce377073d24dd565e14ed562199",
+      "size": 2851,
+      "url": "https://api.github.com/repos/stedolan/jq/git/blobs/c969facfb561fce377073d24dd565e14ed562199"
+    },
+    {
+      "path": "README",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "42061c01a1c70097d1e4579f29a5adf40abdec95",
+      "size": 9,
+      "url": "https://api.github.com/repos/stedolan/jq/git/blobs/42061c01a1c70097d1e4579f29a5adf40abdec95"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f9d1d559a1c9bf3228f85dc09420d055d4d7ecb",
+      "size": 3140,
+      "url": "https://api.github.com/repos/stedolan/jq/git/blobs/8f9d1d559a1c9bf3228f85dc09420d055d4d7ecb"
+    },
+    {
+      "path": "appveyor.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b14e70c5f282650342151db1da74d09fe557066",
+      "size": 2593,
+      "url": "https://api.github.com/repos/stedolan/jq/git/blobs/7b14e70c5f282650342151db1da74d09fe557066"
+    },
+    {
+      "path": "build",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "197a56220cad1446ccbbb5c62e61d9ae7f6414f2",
+      "url": "https://api.github.com/repos/stedolan/jq/git/trees/197a56220cad1446ccbbb5c62e61d9ae7f6414f2"
+    },
+    {
+      "path": "compile-ios.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "dd7ba2ad68f2263649117463fe73c65206705734",
+      "size": 3229,
+      "url": "https://api.github.com/repos/stedolan/jq/git/blobs/dd7ba2ad68f2263649117463fe73c65206705734"
+    },
+    {
+      "path": "config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "10f8a319575b70a441701a9f660dc3141e63d56e",
+      "url": "https://api.github.com/repos/stedolan/jq/git/trees/10f8a319575b70a441701a9f660dc3141e63d56e"
+    },
+    {
+      "path": "configure.ac",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0441d4a2c1a2488d7f19704cb3ee6ae1a17a41c7",
+      "size": 9731,
+      "url": "https://api.github.com/repos/stedolan/jq/git/blobs/0441d4a2c1a2488d7f19704cb3ee6ae1a17a41c7"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1dd07989d040ed863ad5c57309cb32b9486c41ff",
+      "url": "https://api.github.com/repos/stedolan/jq/git/trees/1dd07989d040ed863ad5c57309cb32b9486c41ff"
+    },
+    {
+      "path": "jq.1.prebuilt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c98be3ae5775d56f439537bc0d2fb7c4af37e893",
+      "size": 100875,
+      "url": "https://api.github.com/repos/stedolan/jq/git/blobs/c98be3ae5775d56f439537bc0d2fb7c4af37e893"
+    },
+    {
+      "path": "jq.spec",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffc9ef36a1b4e8845844e2be3698622bc11ad210",
+      "size": 1451,
+      "url": "https://api.github.com/repos/stedolan/jq/git/blobs/ffc9ef36a1b4e8845844e2be3698622bc11ad210"
+    },
+    {
+      "path": "libjq.pc.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b0ab3b8d722397c3aa12f716240219f066a25c5",
+      "size": 257,
+      "url": "https://api.github.com/repos/stedolan/jq/git/blobs/9b0ab3b8d722397c3aa12f716240219f066a25c5"
+    },
+    {
+      "path": "m4",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dbba13599de4934ebccd0506cff6ef632fb22ef7",
+      "url": "https://api.github.com/repos/stedolan/jq/git/trees/dbba13599de4934ebccd0506cff6ef632fb22ef7"
+    },
+    {
+      "path": "modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d95ec24e61e465a358c93166b8e00748afb923e7",
+      "url": "https://api.github.com/repos/stedolan/jq/git/trees/d95ec24e61e465a358c93166b8e00748afb923e7"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ea76d3dfe515ae98839d2a0ce8c3d47397876fc7",
+      "url": "https://api.github.com/repos/stedolan/jq/git/trees/ea76d3dfe515ae98839d2a0ce8c3d47397876fc7"
+    },
+    {
+      "path": "sig",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "02d13ee5d3ac7724b71e43db80b19cce7ab97ccf",
+      "url": "https://api.github.com/repos/stedolan/jq/git/trees/02d13ee5d3ac7724b71e43db80b19cce7ab97ccf"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4e969e7e8f5341147a1903077ded8f8b74081f5b",
+      "url": "https://api.github.com/repos/stedolan/jq/git/trees/4e969e7e8f5341147a1903077ded8f8b74081f5b"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7436338ce9a1b0d2acdb1ccefd33a69ee9331112",
+      "url": "https://api.github.com/repos/stedolan/jq/git/trees/7436338ce9a1b0d2acdb1ccefd33a69ee9331112"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,106 @@
+{
+  "president": [
+    {
+      "type": "polls-plus",
+      "state": "US",
+      "candidates": [
+        {
+          "candidate": "Trump",
+          "winprob": 10.39
+        },
+        {
+          "candidate": "Biden",
+          "winprob": 89.16
+        }
+      ]
+    }
+  ],
+  "senate": [
+    {
+      "type": "classic",
+      "state": "US",
+      "candidates": [
+        {
+          "candidate": "Democrats",
+          "winprob": 77.905
+        },
+        {
+          "candidate": "Republicans",
+          "winprob": 22.095000000000002
+        }
+      ]
+    },
+    {
+      "type": "deluxe",
+      "state": "US",
+      "candidates": [
+        {
+          "candidate": "Democrats",
+          "winprob": 74.2375
+        },
+        {
+          "candidate": "Republicans",
+          "winprob": 25.7625
+        }
+      ]
+    },
+    {
+      "type": "lite",
+      "state": "US",
+      "candidates": [
+        {
+          "candidate": "Democrats",
+          "winprob": 77.61
+        },
+        {
+          "candidate": "Republicans",
+          "winprob": 22.39
+        }
+      ]
+    }
+  ],
+  "house": [
+    {
+      "type": "classic",
+      "state": "US",
+      "candidates": [
+        {
+          "candidate": "Democrats",
+          "winprob": 96.53500000000001
+        },
+        {
+          "candidate": "Republicans",
+          "winprob": 3.465
+        }
+      ]
+    },
+    {
+      "type": "deluxe",
+      "state": "US",
+      "candidates": [
+        {
+          "candidate": "Democrats",
+          "winprob": 97.185
+        },
+        {
+          "candidate": "Republicans",
+          "winprob": 2.815
+        }
+      ]
+    },
+    {
+      "type": "lite",
+      "state": "US",
+      "candidates": [
+        {
+          "candidate": "Democrats",
+          "winprob": 97.59
+        },
+        {
+          "candidate": "Republicans",
+          "winprob": 2.41
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "Functions": [
+    {
+      "Runtime": "java8",
+      "CodeSize": 37165194,
+      "MemorySize": 1536
+    },
+    {
+      "Runtime": "nodejs12.x",
+      "CodeSize": 4566,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 51936224,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "python3.6",
+      "CodeSize": 2323,
+      "MemorySize": 128
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 63458521,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 209260875,
+      "MemorySize": 1536
+    },
+    {
+      "Runtime": "python3.6",
+      "CodeSize": 2260,
+      "MemorySize": 128
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 63458521,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 63458521,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 63458521,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "python2.7",
+      "CodeSize": 26560404,
+      "MemorySize": 1536
+    },
+    {
+      "Runtime": "python3.6",
+      "CodeSize": 9004808,
+      "MemorySize": 128
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 51936224,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "python3.6",
+      "CodeSize": 9004808,
+      "MemorySize": 128
+    },
+    {
+      "Runtime": "nodejs12.x",
+      "CodeSize": 596,
+      "MemorySize": 512
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 20605734,
+      "MemorySize": 1536
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 63458521,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 63458521,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 51936224,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 19832698,
+      "MemorySize": 1536
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 43779246,
+      "MemorySize": 1536
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 3627215,
+      "MemorySize": 3008
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 66367693,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "python2.7",
+      "CodeSize": 24646574,
+      "MemorySize": 1536
+    },
+    {
+      "Runtime": "nodejs12.x",
+      "CodeSize": 637,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "python3.6",
+      "CodeSize": 1640,
+      "MemorySize": 128
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 41191641,
+      "MemorySize": 1536
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 63458521,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 37639160,
+      "MemorySize": 1536
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 43730989,
+      "MemorySize": 1536
+    },
+    {
+      "Runtime": "python2.7",
+      "CodeSize": 18373283,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 51936224,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "python3.6",
+      "CodeSize": 1564,
+      "MemorySize": 128
+    },
+    {
+      "Runtime": "nodejs12.x",
+      "CodeSize": 596,
+      "MemorySize": 512
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 51936224,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "python3.6",
+      "CodeSize": 2256,
+      "MemorySize": 128
+    },
+    {
+      "Runtime": "nodejs10.x",
+      "CodeSize": 3523745,
+      "MemorySize": 512
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 19822159,
+      "MemorySize": 1536
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 63458521,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 63458521,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "python3.6",
+      "CodeSize": 2381,
+      "MemorySize": 128
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 23003858,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 21911377,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 63458521,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 44514383,
+      "MemorySize": 1536
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 63458521,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "nodejs12.x",
+      "CodeSize": 10292,
+      "MemorySize": 1536
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 63458521,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 42520585,
+      "MemorySize": 1536
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 73836078,
+      "MemorySize": 1536
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 19832414,
+      "MemorySize": 1536
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 43730989,
+      "MemorySize": 1536
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 66367693,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 22596484,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "python3.6",
+      "CodeSize": 1971,
+      "MemorySize": 128
+    },
+    {
+      "Runtime": "nodejs12.x",
+      "CodeSize": 596,
+      "MemorySize": 512
+    },
+    {
+      "Runtime": "python3.6",
+      "CodeSize": 9004808,
+      "MemorySize": 128
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 20416014,
+      "MemorySize": 1536
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 49390216,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "nodejs8.10",
+      "CodeSize": 1938,
+      "MemorySize": 128
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 49390216,
+      "MemorySize": 1024
+    },
+    {
+      "Runtime": "python3.6",
+      "CodeSize": 1153,
+      "MemorySize": 128
+    },
+    {
+      "Runtime": "java8",
+      "CodeSize": 49390216,
+      "MemorySize": 1024
+    }
+  ]
+}

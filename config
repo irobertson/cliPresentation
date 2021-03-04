@@ -1,0 +1,14 @@
+{
+  "system1": {
+     "username": "bob",
+     "password": "changeme"
+  },
+  "system2": {
+     "subsystems": [
+       {
+          "username": "squirel",
+          "password": "secret"
+       }
+     ]
+  }
+}

@@ -1,0 +1,76 @@
+# Use bash or zsh, not csh/tcsh
+
+# Basic commands:
+
+cat greenEggsAndHam
+less greenEggsAndHam
+
+# meta-dot
+
+grep ham greenEggsAndHam
+grep ham greenEggsAndHam|awk '{print $1}
+cat greenEggsAndHam|awk '/ham/ {print $1}'
+
+# Build up to:
+
+cat greenEggsAndHam|tr 'A-Z' 'a-z'|sed 's/[^a-z]/ /g'|tr ' ' '\n'|grep .|sort|uniq -c|sort -n
+
+# counting line lengths:
+
+cat greenEggsAndHam|while read line; do echo $line|wc -w; done|sort|uniq -c|sort -k2
+
+# Election forecast
+
+open https://projects.fivethirtyeight.com/2020-election-forecast/
+
+fx 538.har
+cat 538.har \
+    |jq -r '.log.entries[]|select(.response.headers|contains([{"name": "content-type", "value": "application/json"}]))|.request.url'
+jq -r '.log.entries[].request.url' 538.har |grep '\.json'
+
+mkdir
+for url in $(jq -r '.log.entries[].request.url' 538.har |grep '\.json'); do wget -P 538 $url; done
+  ... or
+jq -r '.log.entries[].request.url' 538.har |grep '\.json' | parallel wget -P 538 {}
+
+https://projects.fivethirtyeight.com/2020-election-forecast/us_recirc.json
+
+cat us_recirc.json | jq '.'
+
+cat us_recirc.json | jq '.president'
+cat us_recirc.json | jq '.president[0]'
+
+cat us_recirc.json |jq '.president[0].candidates[0].candidate = "Joe"'
+diff us_recirc.json <(cat us_recirc.json |jq '.president[0].candidates[0].candidate = "Joe"')
+
+cat us_recirc.json | jq '.president[0].candidates[0].winprob'
+cat us_recirc.json | jq '.president[0].candidates[]|select(.candidate == "Biden")|.winprob'
+
+cat us_recirc.json | jq keys
+
+cat us_recirc.json | jq '.president[0].candidates[0].winprob -= 5'
+cat us_recirc.json | jq '.president[0].candidates[].winprob -= 5|.president[0].candidates += [{candidate: "Perot", winProb: 10}]'
+
+cat us_recirc.json | jq '.senate[0].candidates
+cat us_recirc.json | jq '.senate[0].candidates | map({(.candidate): .winprob})'
+cat us_recirc.json | jq '.senate[0].candidates | map({(.candidate): .winprob}) | add'
+cat us_recirc.json | jq '.senate | map({(.type): .candidates | map({(.candidate): .winprob}) | add})'
+cat us_recirc.json | jq '.senate | map({(.type): .candidates | map({(.candidate): .winprob}) | add}) | add'
+cat us_recirc.json | jq '.[] |= (map({(.type): .candidates | map({(.candidate): .winprob}) | add}) | add)'
+
+cat config
+cat config|jq 'walk(if type == "object" and has("password") then .password = "x" * (.password|length) else . end)'
+
+# aws lambda list-functions | jq '.Functions |= map({Runtime, CodeSize, MemorySize})' > functions.json
+
+cat functions.json|jq '.Functions|group_by(.Runtime)|.[]|{Runtime: .[0].Runtime, Count: length, CodeSize: (map(.CodeSize)|add/length)}'
+cat functions.json|jq 'def average(f): map(f)|add/length; .Functions|group_by(.Runtime)|.[]|{Runtime: .[0].Runtime, CodeSize: average(.CodeSize), MemorySize: average(.MemorySize)}'
+
+#JQ references:
+# https://stedolan.github.io/jq/manual/
+# https://stedolan.github.io/jq/tutorial/
+# https://www.baeldung.com/linux/jq-command-json
+# https://lzone.de/cheat-sheet/jq
+# https://programminghistorian.org/en/lessons/json-and-jq
+# https://remysharp.com/drafts/jq-recipes
+# Jq cheat sheet
